@@ -1,0 +1,20 @@
+{
+  "name": "logfmt-check",
+  "version": "0.1.0",
+  "description": "Validate logfmt lines and report malformed key=value pairs.",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "logfmt-check": "./src/cli.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "coverage": "c8 node --test"
+  },
+  "devDependencies": {
+    "c8": "10.1.3"
+  }
+}
